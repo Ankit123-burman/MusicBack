@@ -16,7 +16,7 @@ app.get('/ping', (req, res) => {
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: 'http://localhost:3000', // allow your frontend
+  origin: 'https://music-front-eight.vercel.app/login', // allow your frontend
   credentials: true // if you use cookies or sessions
 }));
 
