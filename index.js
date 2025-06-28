@@ -20,7 +20,7 @@ app.use(cors({
   credentials: true // if you use cookies or sessions
 }));
 
-app.use('/auth', AuthRouter);
+app.use('/auth/login', AuthRouter);
 app.use('/products', ProductRouter);
 
 
